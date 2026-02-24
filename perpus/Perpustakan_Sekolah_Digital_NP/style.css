@@ -1,0 +1,196 @@
+body {
+  min-height: 2000px;
+}
+.jumbotron {
+  padding-top: 6rem;
+
+  background-color: #f1e6d2;
+}
+.img-fluid {
+  filter: blur(3px);
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  text-align: right;
+}
+
+.text-container {
+  position: absolute;
+  color: #f1e6d2;
+  top: 20%;
+  padding: 2rem;
+  text-align: right;
+  font-size: 25px;
+}
+
+#Educations {
+  padding: auto;
+}
+
+#Login {
+  position: relative;
+  overflow: hidden;
+  background-color: #ffff;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 40% 60% 65% 35% / 45% 25% 65% 60%;
+  opacity: 0.55;
+  z-index: 0;
+}
+
+.blob-1 {
+  width: 250px;
+  height: 250px;
+  background: #7d29ec;
+  top: 5%;
+  left: -5%;
+}
+
+.blob-2 {
+  width: 250px;
+  height: 250px;
+  background: #b36cff;
+  top: 18%;
+  left: 28%;
+}
+
+.blob-3 {
+  width: 250px;
+  height: 250px;
+  background: #5f17c7;
+  top: 75%;
+  right: 75%;
+}
+
+.blob-4 {
+  width: 250px;
+  height: 250px;
+  background: #9f5bff;
+  bottom: -15%;
+  right: 42%;
+}
+
+.blob-5 {
+  width: 250px;
+  height: 250px;
+  background: #6a00ff;
+  bottom: 28%;
+  right: 23%;
+}
+
+.blob-6 {
+  width: 250px;
+  height: 250px;
+  background: #6a00ff;
+  top: 12%;
+  right: -5%;
+}
+
+.blob-7 {
+  width: 250px;
+  height: 250px;
+  background: #6a00ff;
+  bottom: -10%;
+  right: 6%;
+}
+
+/* Masuk */
+
+/* Wrapper background */
+.container-welcome .wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: url('image/Libary_bg_Hal.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Kotak Login Transparan */
+.container-welcome .login_box {
+  position: relative;
+  width: 450px;
+  backdrop-filter: blur(15px);
+  background-color: rgba(0, 0, 0, 0.685);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 7em 3em 4em;
+  color: white;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Header login */
+.container-welcome .login_header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c6c3c3;
+  width: 140px;
+  height: 70px;
+  border-radius: 0 0 20px 20px;
+}
+
+.container-welcome .login_header span {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+/* Input style */
+.container-welcome .login_box .form-control {
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0;
+  padding-left: 10px;
+}
+
+.container-welcome .login_box .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.container-welcome .login_box .form-control:focus {
+  background-color: transparent;
+  box-shadow: none;
+  border-bottom-color: white;
+  color: white;
+}
+
+/* Admin Card */
+.container-welcome .admin-card {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  max-width: 400px;
+  width: 100%;
+}
+
+.container-welcome .admin-card h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.container-welcome .admin-card p {
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.container-welcome .admin-card input {
+  margin-bottom: 15px;
+}
+
+#Login .blob {
+  z-index: 0;
+}
+
+#Login .login-content {
+  z-index: 1;
+}
